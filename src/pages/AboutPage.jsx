@@ -7,7 +7,7 @@ function AboutPage() {
       <div className="about">
         <h1> About this project</h1>
         <p>
-          This is cutting-edge feedback app built with React dedicated to
+          This is a cutting-edge feedback app built with React dedicated to
           amplifying your voice, allowing you to effortlessly share your
           thoughts and make a significant impact.
         </p>
