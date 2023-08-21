@@ -1,9 +1,5 @@
 import { createContext, useState, useEffect } from "react"
 
-
-
-
-
 const FeedbackContext = createContext()
 
 export const FeedbackProvider = ({ children }) => {
@@ -11,7 +7,7 @@ export const FeedbackProvider = ({ children }) => {
     const [feedback, setFeedback] = useState([])
     const [feedbackEdit, setFeedbackEdit] = useState({
         item: {},
-        edit: false
+        edit: false,
     })
 
     useEffect(() => {
@@ -68,8 +64,7 @@ export const FeedbackProvider = ({ children }) => {
         const data = await response.json()
 
 
-        setFeedback(feedback.map((item) => item.id === id ?
-            { ...item, ...data } : item))
+        setFeedback(feedback.map((item) => (item.id === id ? data : item)))
 
     }
 
