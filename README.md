@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Feedback App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Live Site URL: [Click here to check it out!](https://feedback-thegirlcoder.netlify.app/)
+- ### Table of contents
+  - [Overview](#overview)
+  - [Features](#Features)
+  - [Technologies Used](#technologies-used)
+  - [What I learned](#what-i-learned)
+  - [Acknowledgment](#acknowledgment)
+  - [Author](#author)
 
-## Available Scripts
+  
 
-In the project directory, you can run:
+### Overview
 
-### `npm start`
+The Feedback App is a React application designed to optimize the process of managing user feedback.This project provides a user interface for adding, editing, deleting, and viewing feedback items.It utilizes a context-based state management approach to provide seamless interaction with the feedback data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
 
-### `npm run build`
+- View Feedback Items: The app presents users with a well-organized list of feedback items upon launch. The latest feedback is prominently displayed, allowing users to quickly access recent submissions.
+- Effortless Feedback Submission: The "Add Feedback" feature guides users through a straightforward form submission process, ensuring their input is integrated into the feedback list.
+- Efficient Feedback Editing and Secure Feedback Deletion: Users can edit their feedback. The app's "Edit" functionality lets users modify existing feedback items and save changes with ease.Also, to maintain data integrity, users can confidently delete feedback items. The app includes a confirmation prompt to prevent accidental delete.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
+- REACT
+- CSS3
+- HTML
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I Learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Through this project, I gained valuable experience in the following areas:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- I gained familiarity with React. Also learned about components, JSX (JavaScript XML), and how to create functional components
+- I learned how to manage state using the useState hook. I used state variables to store and update data.
+- I learned how to use the useEffect hook to perform side effects, such as fetching data from an API.
+- I learned how to implement the Context API to manage global state across components. This includes creating a context, provider, and consumer. I also learned to utilize context to share data and functions across components without needing to pass props through multiple levels.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Acknowledgment
+- [@bradtraversy](https://github.com/bradtraversy)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Github -[@thegirlcoderr](https://github.com/thegirlcoderr)
 
-### Analyzing the Bundle Size
+- Twitter - [@thegirlcoder](https://twitter.com/thegirlcoder)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
