@@ -1,6 +1,6 @@
 # Feedback App
 
-Live Site URL: [Click here to check it out!](https://feedback-thegirlcoder.netlify.app/)
+
 
 - ### Table of contents
   - [Overview](#overview)
